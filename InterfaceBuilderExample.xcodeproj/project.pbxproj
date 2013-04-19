@@ -18,6 +18,8 @@
 		D6E6DB911721912500DB985A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DB901721912500DB985A /* Default-568h@2x.png */; };
 		D6E6DB941721912500DB985A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E6DB931721912500DB985A /* ViewController.m */; };
 		D6E6DB971721912500DB985A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DB951721912500DB985A /* ViewController.xib */; };
+		D6E6DB9F172191D000DB985A /* monkey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DB9D172191D000DB985A /* monkey@2x.png */; };
+		D6E6DBA0172191D000DB985A /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DB9E172191D000DB985A /* monkey.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		D6E6DB921721912500DB985A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D6E6DB931721912500DB985A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D6E6DB961721912500DB985A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D6E6DB9D172191D000DB985A /* monkey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monkey@2x.png"; sourceTree = "<group>"; };
+		D6E6DB9E172191D000DB985A /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		D6E6DB811721912500DB985A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D6E6DB9D172191D000DB985A /* monkey@2x.png */,
+				D6E6DB9E172191D000DB985A /* monkey.png */,
 				D6E6DB821721912500DB985A /* InterfaceBuilderExample-Info.plist */,
 				D6E6DB831721912500DB985A /* InfoPlist.strings */,
 				D6E6DB861721912500DB985A /* main.m */,
@@ -163,6 +169,8 @@
 				D6E6DB8F1721912500DB985A /* Default@2x.png in Resources */,
 				D6E6DB911721912500DB985A /* Default-568h@2x.png in Resources */,
 				D6E6DB971721912500DB985A /* ViewController.xib in Resources */,
+				D6E6DB9F172191D000DB985A /* monkey@2x.png in Resources */,
+				D6E6DBA0172191D000DB985A /* monkey.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

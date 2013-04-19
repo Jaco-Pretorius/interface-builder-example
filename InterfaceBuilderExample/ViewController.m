@@ -9,21 +9,15 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UIImageView *monkeyImage;
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
+- (IBAction)animate:(UIButton *)sender
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [UIView animateWithDuration:0.3f animations:^{
+        self.monkeyImage.center = CGPointMake(self.monkeyImage.center.x, self.monkeyImage.center.y + 188);
+    }];
 }
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end
