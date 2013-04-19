@@ -20,6 +20,10 @@
 		D6E6DB971721912500DB985A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DB951721912500DB985A /* ViewController.xib */; };
 		D6E6DB9F172191D000DB985A /* monkey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DB9D172191D000DB985A /* monkey@2x.png */; };
 		D6E6DBA0172191D000DB985A /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DB9E172191D000DB985A /* monkey.png */; };
+		D6E6DBA51721955900DB985A /* zebra@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DBA11721955900DB985A /* zebra@2x.png */; };
+		D6E6DBA61721955900DB985A /* zebra.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DBA21721955900DB985A /* zebra.png */; };
+		D6E6DBA71721955900DB985A /* giraffe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DBA31721955900DB985A /* giraffe@2x.png */; };
+		D6E6DBA81721955900DB985A /* giraffe.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DBA41721955900DB985A /* giraffe.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,10 @@
 		D6E6DB961721912500DB985A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		D6E6DB9D172191D000DB985A /* monkey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monkey@2x.png"; sourceTree = "<group>"; };
 		D6E6DB9E172191D000DB985A /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
+		D6E6DBA11721955900DB985A /* zebra@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zebra@2x.png"; sourceTree = "<group>"; };
+		D6E6DBA21721955900DB985A /* zebra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zebra.png; sourceTree = "<group>"; };
+		D6E6DBA31721955900DB985A /* giraffe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "giraffe@2x.png"; sourceTree = "<group>"; };
+		D6E6DBA41721955900DB985A /* giraffe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giraffe.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 		D6E6DB811721912500DB985A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D6E6DBA11721955900DB985A /* zebra@2x.png */,
+				D6E6DBA21721955900DB985A /* zebra.png */,
+				D6E6DBA31721955900DB985A /* giraffe@2x.png */,
+				D6E6DBA41721955900DB985A /* giraffe.png */,
 				D6E6DB9D172191D000DB985A /* monkey@2x.png */,
 				D6E6DB9E172191D000DB985A /* monkey.png */,
 				D6E6DB821721912500DB985A /* InterfaceBuilderExample-Info.plist */,
@@ -171,6 +183,10 @@
 				D6E6DB971721912500DB985A /* ViewController.xib in Resources */,
 				D6E6DB9F172191D000DB985A /* monkey@2x.png in Resources */,
 				D6E6DBA0172191D000DB985A /* monkey.png in Resources */,
+				D6E6DBA51721955900DB985A /* zebra@2x.png in Resources */,
+				D6E6DBA61721955900DB985A /* zebra.png in Resources */,
+				D6E6DBA71721955900DB985A /* giraffe@2x.png in Resources */,
+				D6E6DBA81721955900DB985A /* giraffe.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

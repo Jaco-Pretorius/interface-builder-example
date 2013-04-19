@@ -18,6 +18,10 @@
 {
     [UIView animateWithDuration:0.3f animations:^{
         self.monkeyImage.center = CGPointMake(self.monkeyImage.center.x, self.monkeyImage.center.y + 188);
+    } completion:^(BOOL finished) {
+        UIImageView *zebra = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"zebra"]];
+        zebra.frame = CGRectMake(0, 300, 128, 120);
+        [self.view addSubview:zebra];
     }];
 }
 @end
